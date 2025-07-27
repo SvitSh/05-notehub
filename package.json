@@ -8,6 +8,7 @@
   },
   "dependencies": {
     "@tanstack/react-query": "^5.83.0",
+    "@vercel/node": "^5.3.7",
     "axios": "^1.11.0",
     "formik": "^2.4.6",
     "react": "^18.2.0",
