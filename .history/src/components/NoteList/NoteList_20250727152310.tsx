@@ -1,5 +1,6 @@
+// src/components/NoteList/NoteList.tsx
+
 import { Note } from "../../types/note";
-import css from "./NoteList.module.css";
 
 interface NoteListProps {
   notes: Note[];
@@ -7,7 +8,7 @@ interface NoteListProps {
 }
 
 const NoteList = ({ notes, onDelete }: NoteListProps) => {
-  if (!notes.length) return null;
+  if (notes.length === 0) return null;
 
   return (
     <ul className={css.list}>
