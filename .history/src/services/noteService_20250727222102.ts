@@ -1,7 +1,7 @@
 import axios from "axios";
 import { Note, NoteTag } from "../types/note";
 
-const BASE_URL = import.meta.env.VITE_API_URL;
+const BASE_URL = "https://notehub-public.goit.study/api";
 const TOKEN = import.meta.env.VITE_NOTEHUB_TOKEN;
 
 const instance = axios.create({
