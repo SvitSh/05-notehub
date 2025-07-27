@@ -62,10 +62,7 @@ const App = () => {
 
       {isModalOpen && (
         <Modal onClose={() => setIsModalOpen(false)}>
-          <NoteForm
-            onClose={() => setIsModalOpen(false)}
-            onSubmit={() => setIsModalOpen(false)}
-          />
+          <NoteForm onClose={() => setIsModalOpen(false)} />
         </Modal>
       )}
     </div>
